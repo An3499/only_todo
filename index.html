@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./reset.css">
+
+</head>
+
+<body>
+
+    <main class="main">
+
+        <header class="header">
+            <h1 class="header__text">Сегодня</h1>
+            <div class="header__button">Править</div>
+        </header>
+
+        <section class="todo-list">
+            
+            <div class="todo-list__item">
+                <div class="todo-list__checkbox">
+                    <input class="checkbox__invisible" type="checkbox">
+                    <div class="checkbox__visible"></div>
+                </div>
+                <label class="todo-list__text">Пройти стажировку в Онли</label>
+            </div>
+            <div class="todo-list__item">
+                <div class="todo-list__checkbox">
+                    <input class="checkbox__invisible" type="checkbox">
+                    <div class="checkbox__visible"></div>
+                </div>
+                <label class="todo-list__text">Пройти стажировку в Онли</label>
+            </div>
+            <div class="todo-list__item">
+                <div class="todo-list__checkbox">
+                    <input class="checkbox__invisible" type="checkbox">
+                    <div class="checkbox__visible"></div>
+                </div>
+                <label class="todo-list__text">Пройти стажировку в Онли</label>
+            </div>
+            <div class="todo-list__item">
+                <div class="todo-list__checkbox">
+                    <input class="checkbox__invisible" type="checkbox">
+                    <div class="checkbox__visible"></div>
+                </div>
+                <label class="todo-list__text">Пройти стажировку в Онли</label>
+            </div>
+            <div class="todo-list__item">
+                <div class="todo-list__checkbox">
+                    <input class="checkbox__invisible" type="checkbox">
+                    <div class="checkbox__visible"></div>
+                </div>
+                <label class="todo-list__text">Пройти стажировку в Онли</label>
+            </div>
+
+        </section>
+
+
+        <div class="fab"></div>
+
+    </main>
+    <section class="modal modal__effect_hide">
+        <div class="modal__inner">
+            <textarea placeholder="Введите текст задачи" class="modal__input"></textarea>
+            <div class="modal__button-area">
+                <div class="button button__close">Закрыть</div>
+                <div class="button button__add">Добавить</div>
+            </div>
+
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
